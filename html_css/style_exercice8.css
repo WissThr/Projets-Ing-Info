@@ -1,0 +1,63 @@
+body{
+	width: 1200px;
+	border: solid black 3px;
+  position:relative;
+}
+
+section{
+	width:400px;
+	margin: 100px;
+  margin-top:0px;
+  margin-bottom:0px;
+	border: solid black 3px;
+}
+
+
+section:nth-child(2n+1){
+  background-color:red;
+	position:absolute;
+		right:00px;
+}
+
+article{
+	width:200px;
+	height:50px;
+	margin-bottom: 50px;
+	padding:10px;
+	text-align: center;
+	position: static;
+		
+}
+
+article:nth-child(2n){
+	background-color:cyan;
+	position: static;
+	margin-left: 50px;
+	
+}
+
+article:nth-child(2n+1){
+	background-color:aquamarine;
+	margin-right: 50px;
+	position: relative;
+		left: 100px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+body {
+	background-image: url(./img/code.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	margin: 10px;
+}
+
+body>* {
+	background-color: white;
+}
+
+header img {
+	width: 100%;
+}
+
+header h4 {
+	text-decoration: underline;
+	color: gray;
+}
+
+body h3 {
+	text-decoration: underline;
+	color: gray;
+}
+
+@media (min-width:960px) {
+	body {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas:
+			"header header header"
+			"exp exp comp"
+			"foot foot foot";
+	}
+
+	body>header {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas:
+			"nom nom nom"
+			"img contact rs";
+		grid-area: header;
+		background-color: transparent;
+		color: white;
+	}
+
+	header h2 {
+		text-decoration: underline;
+		color: black;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	header h4 {
+		text-decoration: underline;
+		color: white;
+	}
+
+	header>* {
+		padding: 10px;
+		padding-top: 0;
+	}
+
+	header h1 {
+		grid-area: nom;
+		text-align: center;
+	}
+
+	img {
+		grid-area: img;
+		padding: 0;
+	}
+
+	.contact {
+		grid-area: contact;
+	}
+
+	.reseaux {
+		grid-area: rs;
+	}
+
+	main {
+		grid-area: exp;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	aside {
+		grid-area: comp;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	footer {
+		grid-area: foot;
+		margin: 5px;
+		padding: 5px;
+	}
+
+
+}
+
+@media (min-width:1680px){
+	body>header {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"img"
+			"nom"
+			"contact"
+			"rs";
+		grid-area: header;
+		background-color: white;
+		color: black;
+		margin: 5px;
+	}
+	
+	body {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas:
+			"header exp comp"
+			"foot foot foot";
+	}
+	header h4{
+		color:gray;
+	}
+	footer{
+		margin-left:0px;
+		margin-right:0px;
+	}
+}
+
+
+aside:hover{
+	background-image: url(./img/dono.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+
+main:active{
+	background-image: url(./img/dono.png);
+	background-size:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+Pour compiler entrez dans le terminal: 
+gcc -Wall mat.c -o mat_exe
+
+Pour executer le programme entrez:
+./mat_exe test/(nom du fichier).txt

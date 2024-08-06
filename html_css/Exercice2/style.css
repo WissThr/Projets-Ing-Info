@@ -1,0 +1,77 @@
+body{
+    width:1000px;
+    border: solid 1px black;
+    margin:auto;
+    padding:50px;
+    background-image: url("img/firefox.png");
+	background-position : bottom center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    
+}
+
+p{
+	color: rosybrown;
+	
+}
+p:nth-child(1){
+	width:700px;
+	height: 100px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:0px;
+	padding:20px;
+	text-align: justify;
+	border-bottom-left-radius:30px 30px;
+	border-bottom-right-radius:30px 30px;
+	background-color : aquamarine;
+}
+
+h1{
+	width:700px;
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom:0px;
+	padding:20px;
+	border-top-left-radius:30px 30px;
+	border-top-right-radius:30px 30px;
+
+	background-color : aquamarine;
+}
+
+
+hr{
+	display: none;
+}
+
+li{
+	list-style:none;
+	display:inline-block;
+	height: 50px;
+	margin:5px;
+	margin-top:30px;
+	background-color:rgb(255,228,196);
+	border: solid 1px black;
+}
+
+li:nth-child(2n+1){
+	background-color:rgb(222,184,135);
+}
+
+p em{
+	color:#8a2be2;
+}
+
+p strong{
+	color:#8a2be2;
+}
+
+
+
+
+
+
+
+
+

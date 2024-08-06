@@ -1,0 +1,66 @@
+/* Auteur : Étienne André (janvier 2023) */
+/* Couleurs récupérées d'une génération aléatoire sur https://mybrandnewlogo.com/fr/generateur-de-palette-de-couleurs :
+.color1 {color: #461d17;}
+.color2 {color: #683826;}
+.color3 {color: #965f3d;}
+.color4 {color: #cf8f58;}
+.color5 {color: #f1cd75;}
+
+*/
+
+body{
+	margin : 0;
+}
+
+header{
+	height           : 120px;
+	background-color : #461d17;
+	color            : #f1cd75;
+	margin           : 0;
+	text-align       : center;
+	width            : 100%;
+	top              : 0;
+	padding          : 0;
+}
+
+article{
+	margin-right   : 0;
+	margin-left    : 0;
+	padding        : 0%;
+	padding-bottom : 0em;
+}
+
+h1{
+	margin         : 0;
+	padding-top    : 1em;
+	top            : 50%;
+	left           : 50%;
+	text-transform : uppercase;
+}
+
+h2{
+	margin           : 0;
+	padding          : .5em;
+	color            : #461d17;
+	background-color : #f1cd75;
+}
+
+p{
+	margin     : 0;
+	padding    : 1em;
+	text-align : justify;
+}
+
+img{
+	margin-right : 25%;
+	margin-left  : 25%;
+	width        : 50%;
+}
+
+.fondencouleur{
+	background-color : #cf8f58;
+}
+
+.arrondi{
+	border-radius : 70%;
+}
